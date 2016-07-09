@@ -5,6 +5,13 @@
 130 REM CP/M MBASIC has bitwise operators so much of the line
 140 REM clipping logic is simplified compared to the Apple II version.
 
+150 REM The TRS-80 Model II has no pixel graphics at all. Graphics are
+155 REM simulated using inverse spaces. Line drawing is handled through
+160 REM the complicated routine at 1500 (borrowed from the C64
+165 REM version). MBASIC has no cursor positioning built-in. Plotting is
+170 REM done by the routine at 1700 by homing the cursor and then moving
+175 REM it right and down.
+
 200 REM === Initialize variables
 210 CLEAR 200
 220 SW = 80:SH = 24:XS = SW / 1000:YS = (SH * 4) / (1000 * 3)

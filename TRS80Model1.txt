@@ -5,6 +5,10 @@
 130 REM Level 2 BASIC has bitwise operators so much of the line
 140 REM clipping logic is simplified compared to the Apple II version.
 
+150 REM The TRS-80 Model I only has a simple SET command for plotting a
+160 REM point. The line drawing routine is borrowed from the Commodore 64
+170 REM through the complicated routine at 1500.
+
 200 REM === Initialize variables
 210 CLEAR 200
 220 SW = 128:SH = 48:XS = SW / 1000:YS = (SH * 4) / (1000 * 3)
