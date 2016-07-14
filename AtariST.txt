@@ -16,7 +16,7 @@
 300 REM === Get command to execute
 310 CM$="5 ( D 12 ( 210 M 5 ( 30 T 10 M ) ) U 100 T 150 M )"
 
-490 COLOR 1,1,1,1,1:FULLW 2:CLEARW 2:FILL 0,0
+490 FULLW 2: CLEARW 2
 
 500 REM === Command interpreter
 510 IP = 1:SP = 0
